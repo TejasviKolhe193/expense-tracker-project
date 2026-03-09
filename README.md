@@ -1,26 +1,22 @@
-# 💸 Expense Tracker
-**Mini Project | B.Tech CSE – 4th Semester**
+# Expense Tracker
+**Mini Project**
 
 ---
 
-## 📌 Project Overview
-A desktop Expense Tracker application built with Python that allows users to **add, edit, delete, search, and visualize** their daily expenses. Data is persisted using a local SQLite database.
+## Project Overview
+A desktop Expense Tracker application built with Python that allows users to add, edit, delete, search, and visualize their daily expenses. Data is persisted using a local SQLite database.
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
+1. Language: Python
+2. GUI: Tkinter (built-in)
+3. Database: SQLite3 (built-in)
+4. Data visualisation library: Matplotlib charts
+5. Architecture: OOP + Modular
 
-| Component     | Technology         | Reason                                        |
-|---------------|--------------------|-----------------------------------------------|
-| Language      | Python 3.10+       | Core programming language                     |
-| GUI           | Tkinter (built-in) | Simple desktop GUI, no extra setup            |
-| Database      | SQLite3 (built-in) | Lightweight relational DB, no server needed   |
-| Charts        | Matplotlib         | Data visualization library                    |
-| Architecture  | OOP + Modular      | Separation of concerns across multiple files  |
 
----
-
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 expense_tracker/
@@ -37,10 +33,9 @@ expense_tracker/
 
 ---
 
-## ⚙️ Setup & Run
+## Setup & Run
 
 ### Step 1 – Install Python
-Make sure Python 3.10 or above is installed.
 ```bash
 python --version
 ```
@@ -60,23 +55,23 @@ python main.py
 
 ---
 
-## 🎯 Features
+## Features
 
 | Feature             | Description                                          |
 |---------------------|------------------------------------------------------|
-| ➕ Add Expense       | Add expense with title, amount, category, date, note |
-| ✏️ Edit Expense      | Click any row → edit in form → Save Edit             |
-| 🗑️ Delete Expense   | Select row → Delete                                  |
-| 🔍 Search           | Search by keyword in title or note                   |
-| 📂 Category Filter  | Filter expenses by category                          |
-| 🥧 Pie Chart        | Spending breakdown by category                       |
-| 📈 Monthly Trend    | Line chart showing month-wise spending               |
-| 📊 Bar Chart        | Bar chart comparison across categories               |
-| 💾 Persistent Data  | All data saved in SQLite, survives app restarts       |
+| Add Expense       | Add expense with title, amount, category, date, note |
+| Edit Expense      | Click any row → edit in form → Save Edit             |
+| Delete Expense   | Select row → Delete                                  |
+| Search           | Search by keyword in title or note                   |
+| Category Filter  | Filter expenses by category                          |
+| Pie Chart        | Spending breakdown by category                       |
+| Monthly Trend    | Line chart showing month-wise spending               |
+| Bar Chart        | Bar chart comparison across categories               |
+| Persistent Data  | All data saved in SQLite, survives app restarts       |
 
 ---
 
-## 📚 Concepts Demonstrated
+## Concepts Demonstrated
 
 1. **Object-Oriented Programming** – `Expense` class with attributes, `__str__`, `__repr__`, static methods; `Database` class with encapsulated DB logic
 2. **SQLite Database** – DDL (CREATE TABLE), DML (INSERT, SELECT, UPDATE, DELETE), aggregate queries (SUM, GROUP BY)
@@ -88,7 +83,7 @@ python main.py
 
 ---
 
-## 🗄️ Database Schema
+## Database Schema
 
 ```sql
 CREATE TABLE IF NOT EXISTS expenses (
@@ -103,12 +98,12 @@ CREATE TABLE IF NOT EXISTS expenses (
 
 ---
 
-## 📸 Categories Supported
+## Categories Supported
 Food, Transport, Shopping, Entertainment, Health, Bills, Education, Other
 
 ---
 
-## 🔮 Possible Future Enhancements
+## Possible Future Enhancements
 - Export data to CSV/Excel
 - Monthly budget limit + alerts
 - User login with password hashing
@@ -116,5 +111,3 @@ Food, Transport, Shopping, Entertainment, Health, Bills, Education, Other
 
 ---
 
-## 👨‍💻 Author
-*Your Name Here* | B.Tech CSE | Semester 4
